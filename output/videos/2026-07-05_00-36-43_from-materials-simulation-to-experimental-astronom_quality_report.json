@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-07-04T19:56:54.068959+00:00",
+  "generation_time_seconds": 6117.0,
+  "topic": "From Materials Simulation to Experimental Astronomy, New NVIDIA AI Software Unlocks Scientific Discoveries",
+  "story": {
+    "source": "NVIDIA AI",
+    "url": "https://blogs.nvidia.com/blog/ai-for-science-software-cuda/",
+    "viral_score": 92,
+    "age_hours": 1.7,
+    "category": "Product Launch"
+  },
+  "audience": {
+    "curiosity": 9,
+    "shock_value": 3,
+    "mass_appeal": 7,
+    "shareability": 8,
+    "retention_potential": 9,
+    "overall": 80,
+    "reasoning": "High curiosity from the diverse applications, good retention potential due to the step-by-step introduction of AI in various scientific fields."
+  },
+  "script": {
+    "structure_score": 6,
+    "hook_score": 7,
+    "word_count": 62,
+    "estimated_seconds": 24.8,
+    "has_hook": true,
+    "has_curiosity_gap": false,
+    "has_payoff": true,
+    "has_why_it_matters": true,
+    "has_cta": true,
+    "fact_safe": false,
+    "invented_items": [
+      "NVIDIA DAQIRI library",
+      "ALCHEMI NIM microservices",
+      "cuPhoton"
+    ]
+  },
+  "images": {
+    "count": 7,
+    "prompts_sanitized": 7
+  },
+  "warnings": [
+    "script: The script mentions specific tools (DAQIRI, ALCHEMI NIM, cuPhoton) that are not in the allowed facts.",
+    "script: The word 'microservices' might be confusing to viewers without background knowledge.",
+    "script: The phrase 'coming soon' is vague and could be misleading.",
+    "script: The structure could benefit from a more balanced distribution of information.",
+    "script: The script does not explicitly state why these tools matter for scientific discoveries.",
+    "word count 62 outside 90–120",
+    "invented facts: NVIDIA DAQIRI library, ALCHEMI NIM microservices, cuPhoton",
+    "7 image prompt(s) contained non-cinematic elements and were rewritten"
+  ],
+  "final_pass": false
+}

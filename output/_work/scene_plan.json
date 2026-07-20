@@ -1,0 +1,83 @@
+{
+  "scenes": [
+    {
+      "index": 1,
+      "purpose": "Hook",
+      "duration": 5.0,
+      "visual_description": "A massive server farm with lights flickering and servers crashing. A technician rushes to a console, typing furiously.",
+      "emotion": "Tension",
+      "camera_style": "Dutch angle close-up on the technician's face",
+      "transition": "flash",
+      "prompt": ""
+    },
+    {
+      "index": 2,
+      "purpose": "Curiosity Gap",
+      "duration": 4.5,
+      "visual_description": "A close-up of a computer screen showing cryptic error messages. The screen fades to reveal a code snippet with an ancient syntax.",
+      "emotion": "Surprise",
+      "camera_style": "Extreme close-up on the code snippet",
+      "transition": "crossfade",
+      "prompt": ""
+    },
+    {
+      "index": 3,
+      "purpose": "Main Explanation",
+      "duration": 6.0,
+      "visual_description": "A data flow diagram of Rockset, with arrows pointing to a specific node labeled 'GNU libunwind'. A voiceover explains the race condition.",
+      "emotion": "Excitement",
+      "camera_style": "Over-the-shoulder view from an engineer explaining",
+      "transition": "zoom_in",
+      "prompt": ""
+    },
+    {
+      "index": 4,
+      "purpose": "Reveal",
+      "duration": 5.0,
+      "visual_description": "A dramatic zoom into the codebase, revealing a line of code marked with a red exclamation point.",
+      "emotion": "Awe",
+      "camera_style": "Low-angle hero shot on the code",
+      "transition": "zoom_out",
+      "prompt": ""
+    },
+    {
+      "index": 5,
+      "purpose": "Why It Matters",
+      "duration": 4.0,
+      "visual_description": "Cut to a bustling AI research lab, with scientists working feverishly around a table. A scientist points at the screen showing successful bug fixes.",
+      "emotion": "Urgency",
+      "camera_style": "Wide establishing shot of the lab",
+      "transition": "slide_left",
+      "prompt": ""
+    },
+    {
+      "index": 6,
+      "purpose": "Main Explanation (continued)",
+      "duration": 5.0,
+      "visual_description": "A series of animations showing how hardware corruption and race conditions interact, leading to crashes.",
+      "emotion": "Excitement",
+      "camera_style": "Dynamic montage with quick cuts",
+      "transition": "crossfade",
+      "prompt": ""
+    },
+    {
+      "index": 7,
+      "purpose": "CTA",
+      "duration": 3.5,
+      "visual_description": "Closing shot of the YouTube channel logo, with a call-to-action overlay: 'Stay tuned for more AI revelations! Follow us now.'",
+      "emotion": "Hope",
+      "camera_style": "Wide establishing shot of the logo and overlay",
+      "transition": "slide_right",
+      "prompt": ""
+    }
+  ],
+  "quality": {
+    "score": 9,
+    "visual_variety": 9,
+    "motion_quality": 8,
+    "retention": 10,
+    "scene_flow": 9,
+    "cinematic_quality": 9,
+    "issues": []
+  }
+}

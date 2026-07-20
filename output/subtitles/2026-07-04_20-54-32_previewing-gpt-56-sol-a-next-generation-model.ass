@@ -1,0 +1,46 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Pop,Impact,105,&H00FFFFFF,&H000000FF,&H00000000,&H80000000,1,0,0,0,100,100,0,0,1,7,3,2,80,80,230,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+
+Dialogue: 0,0:00:00.00,0:00:00.72,Pop,,0,0,0,,{\an2\fad(60,60)\t(0,100,\fscx112\fscy112)\t(100,200,\fscx100\fscy100)}AI HAS
+Dialogue: 0,0:00:00.72,0:00:01.07,Pop,,0,0,0,,{\an2\fad(60,60)\t(0,100,\fscx112\fscy112)\t(100,200,\fscx100\fscy100)}HIT A
+Dialogue: 0,0:00:01.00,0:00:02.60,Pop,,0,0,0,,{\an2\fad(60,60)\t(0,100,\fscx112\fscy112)\t(100,200,\fscx100\fscy100)}WALL? THINK
+Dialogue: 0,0:00:02.60,0:00:04.54,Pop,,0,0,0,,{\an2\fad(60,60)\t(0,100,\fscx112\fscy112)\t(100,200,\fscx100\fscy100)}AGAIN. GPT
+Dialogue: 0,0:00:04.54,0:00:05.32,Pop,,0,0,0,,{\an2\fad(60,60)\t(0,100,\fscx112\fscy112)\t(100,200,\fscx100\fscy100)}-5 .6
+Dialogue: 0,0:00:05.32,0:00:05.82,Pop,,0,0,0,,{\an2\fad(60,60)\t(0,100,\fscx112\fscy112)\t(100,200,\fscx100\fscy100)}SOLE IS
+Dialogue: 0,0:00:05.82,0:00:06.17,Pop,,0,0,0,,{\an2\fad(60,60)\t(0,100,\fscx112\fscy112)\t(100,200,\fscx100\fscy100)}HERE TO
+Dialogue: 0,0:00:06.12,0:00:06.64,Pop,,0,0,0,,{\an2\fad(60,60)\t(0,100,\fscx112\fscy112)\t(100,200,\fscx100\fscy100)}SHATTER THOSE
+Dialogue: 0,0:00:06.64,0:00:08.30,Pop,,0,0,0,,{\an2\fad(60,60)\t(0,100,\fscx112\fscy112)\t(100,200,\fscx100\fscy100)}DOUBTS. THIS
+Dialogue: 0,0:00:08.30,0:00:08.84,Pop,,0,0,0,,{\an2\fad(60,60)\t(0,100,\fscx112\fscy112)\t(100,200,\fscx100\fscy100)}NEXT GENERATION
+Dialogue: 0,0:00:08.84,0:00:09.94,Pop,,0,0,0,,{\an2\fad(60,60)\t(0,100,\fscx112\fscy112)\t(100,200,\fscx100\fscy100)}MODEL PROMISES
+Dialogue: 0,0:00:09.94,0:00:11.10,Pop,,0,0,0,,{\an2\fad(60,60)\t(0,100,\fscx112\fscy112)\t(100,200,\fscx100\fscy100)}UNPRECEDENTED SPEED
+Dialogue: 0,0:00:11.10,0:00:11.78,Pop,,0,0,0,,{\an2\fad(60,60)\t(0,100,\fscx112\fscy112)\t(100,200,\fscx100\fscy100)}AND EFFICIENCY.
+Dialogue: 0,0:00:12.96,0:00:13.36,Pop,,0,0,0,,{\an2\fad(60,60)\t(0,100,\fscx112\fscy112)\t(100,200,\fscx100\fscy100)}IT'S NOT
+Dialogue: 0,0:00:13.36,0:00:14.00,Pop,,0,0,0,,{\an2\fad(60,60)\t(0,100,\fscx112\fscy112)\t(100,200,\fscx100\fscy100)}JUST FASTER,
+Dialogue: 0,0:00:14.30,0:00:14.94,Pop,,0,0,0,,{\an2\fad(60,60)\t(0,100,\fscx112\fscy112)\t(100,200,\fscx100\fscy100)}IT REDEFINES
+Dialogue: 0,0:00:14.94,0:00:15.66,Pop,,0,0,0,,{\an2\fad(60,60)\t(0,100,\fscx112\fscy112)\t(100,200,\fscx100\fscy100)}WHAT'S POSSIBLE
+Dialogue: 0,0:00:15.66,0:00:16.18,Pop,,0,0,0,,{\an2\fad(60,60)\t(0,100,\fscx112\fscy112)\t(100,200,\fscx100\fscy100)}IN LANGUAGE
+Dialogue: 0,0:00:16.18,0:00:17.96,Pop,,0,0,0,,{\an2\fad(60,60)\t(0,100,\fscx112\fscy112)\t(100,200,\fscx100\fscy100)}PROCESSING. BY
+Dialogue: 0,0:00:17.96,0:00:18.60,Pop,,0,0,0,,{\an2\fad(60,60)\t(0,100,\fscx112\fscy112)\t(100,200,\fscx100\fscy100)}UNLOCKING NEW
+Dialogue: 0,0:00:18.60,0:00:19.92,Pop,,0,0,0,,{\an2\fad(60,60)\t(0,100,\fscx112\fscy112)\t(100,200,\fscx100\fscy100)}FRONTIERS, GPT
+Dialogue: 0,0:00:19.92,0:00:20.72,Pop,,0,0,0,,{\an2\fad(60,60)\t(0,100,\fscx112\fscy112)\t(100,200,\fscx100\fscy100)}-5 .6
+Dialogue: 0,0:00:20.72,0:00:21.24,Pop,,0,0,0,,{\an2\fad(60,60)\t(0,100,\fscx112\fscy112)\t(100,200,\fscx100\fscy100)}SOLE MAKES
+Dialogue: 0,0:00:21.24,0:00:21.80,Pop,,0,0,0,,{\an2\fad(60,60)\t(0,100,\fscx112\fscy112)\t(100,200,\fscx100\fscy100)}CURRENT AI
+Dialogue: 0,0:00:21.80,0:00:22.74,Pop,,0,0,0,,{\an2\fad(60,60)\t(0,100,\fscx112\fscy112)\t(100,200,\fscx100\fscy100)}TOOLS OBSOLETE.
+Dialogue: 0,0:00:23.62,0:00:24.34,Pop,,0,0,0,,{\an2\fad(60,60)\t(0,100,\fscx112\fscy112)\t(100,200,\fscx100\fscy100)}STAY AHEAD
+Dialogue: 0,0:00:24.34,0:00:24.69,Pop,,0,0,0,,{\an2\fad(60,60)\t(0,100,\fscx112\fscy112)\t(100,200,\fscx100\fscy100)}OF THE
+Dialogue: 0,0:00:24.62,0:00:25.06,Pop,,0,0,0,,{\an2\fad(60,60)\t(0,100,\fscx112\fscy112)\t(100,200,\fscx100\fscy100)}CURVE BY
+Dialogue: 0,0:00:25.06,0:00:25.68,Pop,,0,0,0,,{\an2\fad(60,60)\t(0,100,\fscx112\fscy112)\t(100,200,\fscx100\fscy100)}FOLLOWING US
+Dialogue: 0,0:00:25.68,0:00:26.04,Pop,,0,0,0,,{\an2\fad(60,60)\t(0,100,\fscx112\fscy112)\t(100,200,\fscx100\fscy100)}FOR MORE
+Dialogue: 0,0:00:26.04,0:00:26.39,Pop,,0,0,0,,{\an2\fad(60,60)\t(0,100,\fscx112\fscy112)\t(100,200,\fscx100\fscy100)}ON THE
+Dialogue: 0,0:00:26.34,0:00:26.86,Pop,,0,0,0,,{\an2\fad(60,60)\t(0,100,\fscx112\fscy112)\t(100,200,\fscx100\fscy100)}FUTURE OF
+Dialogue: 0,0:00:26.86,0:00:27.21,Pop,,0,0,0,,{\an2\fad(60,60)\t(0,100,\fscx112\fscy112)\t(100,200,\fscx100\fscy100)}AI.

@@ -1,0 +1,45 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Pop,Impact,105,&H00FFFFFF,&H000000FF,&H00000000,&H80000000,1,0,0,0,100,100,0,0,1,7,3,2,80,80,230,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+
+Dialogue: 0,0:00:00.00,0:00:00.48,Pop,,0,0,0,,{\an2\fad(60,60)\t(0,100,\fscx112\fscy112)\t(100,200,\fscx100\fscy100)}AT THE
+Dialogue: 0,0:00:00.48,0:00:01.32,Pop,,0,0,0,,{\an2\fad(60,60)\t(0,100,\fscx112\fscy112)\t(100,200,\fscx100\fscy100)}ISC CONFERENCE
+Dialogue: 0,0:00:01.32,0:00:02.00,Pop,,0,0,0,,{\an2\fad(60,60)\t(0,100,\fscx112\fscy112)\t(100,200,\fscx100\fscy100)}IN HAMBURG,
+Dialogue: 0,0:00:02.38,0:00:02.94,Pop,,0,0,0,,{\an2\fad(60,60)\t(0,100,\fscx112\fscy112)\t(100,200,\fscx100\fscy100)}NVIDIA IS
+Dialogue: 0,0:00:02.94,0:00:04.14,Pop,,0,0,0,,{\an2\fad(60,60)\t(0,100,\fscx112\fscy112)\t(100,200,\fscx100\fscy100)}REVOLUTIONIZING SCIENCE
+Dialogue: 0,0:00:04.14,0:00:04.60,Pop,,0,0,0,,{\an2\fad(60,60)\t(0,100,\fscx112\fscy112)\t(100,200,\fscx100\fscy100)}WITH NEW
+Dialogue: 0,0:00:04.60,0:00:05.44,Pop,,0,0,0,,{\an2\fad(60,60)\t(0,100,\fscx112\fscy112)\t(100,200,\fscx100\fscy100)}AI SOFTWARE.
+Dialogue: 0,0:00:06.44,0:00:07.02,Pop,,0,0,0,,{\an2\fad(60,60)\t(0,100,\fscx112\fscy112)\t(100,200,\fscx100\fscy100)}THIS TOOL
+Dialogue: 0,0:00:07.02,0:00:07.54,Pop,,0,0,0,,{\an2\fad(60,60)\t(0,100,\fscx112\fscy112)\t(100,200,\fscx100\fscy100)}SPEEDS UP
+Dialogue: 0,0:00:07.54,0:00:08.14,Pop,,0,0,0,,{\an2\fad(60,60)\t(0,100,\fscx112\fscy112)\t(100,200,\fscx100\fscy100)}RESEARCH FROM
+Dialogue: 0,0:00:08.14,0:00:09.18,Pop,,0,0,0,,{\an2\fad(60,60)\t(0,100,\fscx112\fscy112)\t(100,200,\fscx100\fscy100)}MATERIALS SIMULATION
+Dialogue: 0,0:00:09.18,0:00:09.76,Pop,,0,0,0,,{\an2\fad(60,60)\t(0,100,\fscx112\fscy112)\t(100,200,\fscx100\fscy100)}TO DARK
+Dialogue: 0,0:00:09.76,0:00:10.46,Pop,,0,0,0,,{\an2\fad(60,60)\t(0,100,\fscx112\fscy112)\t(100,200,\fscx100\fscy100)}MATTER DETECTION.
+Dialogue: 0,0:00:11.56,0:00:12.12,Pop,,0,0,0,,{\an2\fad(60,60)\t(0,100,\fscx112\fscy112)\t(100,200,\fscx100\fscy100)}THE NVIDIA
+Dialogue: 0,0:00:12.12,0:00:12.94,Pop,,0,0,0,,{\an2\fad(60,60)\t(0,100,\fscx112\fscy112)\t(100,200,\fscx100\fscy100)}DAKIRI LIBRARY
+Dialogue: 0,0:00:12.94,0:00:13.58,Pop,,0,0,0,,{\an2\fad(60,60)\t(0,100,\fscx112\fscy112)\t(100,200,\fscx100\fscy100)}IN ALCHEMY
+Dialogue: 0,0:00:13.58,0:00:14.76,Pop,,0,0,0,,{\an2\fad(60,60)\t(0,100,\fscx112\fscy112)\t(100,200,\fscx100\fscy100)}NIM MICROSERVICES
+Dialogue: 0,0:00:14.76,0:00:15.30,Pop,,0,0,0,,{\an2\fad(60,60)\t(0,100,\fscx112\fscy112)\t(100,200,\fscx100\fscy100)}WILL CUT
+Dialogue: 0,0:00:15.30,0:00:15.78,Pop,,0,0,0,,{\an2\fad(60,60)\t(0,100,\fscx112\fscy112)\t(100,200,\fscx100\fscy100)}HOURS OF
+Dialogue: 0,0:00:15.78,0:00:16.74,Pop,,0,0,0,,{\an2\fad(60,60)\t(0,100,\fscx112\fscy112)\t(100,200,\fscx100\fscy100)}COMPUTATION TIME.
+Dialogue: 0,0:00:17.64,0:00:18.34,Pop,,0,0,0,,{\an2\fad(60,60)\t(0,100,\fscx112\fscy112)\t(100,200,\fscx100\fscy100)}COMING SOON,
+Dialogue: 0,0:00:18.60,0:00:19.32,Pop,,0,0,0,,{\an2\fad(60,60)\t(0,100,\fscx112\fscy112)\t(100,200,\fscx100\fscy100)}CU PHOTON
+Dialogue: 0,0:00:19.32,0:00:19.72,Pop,,0,0,0,,{\an2\fad(60,60)\t(0,100,\fscx112\fscy112)\t(100,200,\fscx100\fscy100)}WILL PUSH
+Dialogue: 0,0:00:19.72,0:00:20.46,Pop,,0,0,0,,{\an2\fad(60,60)\t(0,100,\fscx112\fscy112)\t(100,200,\fscx100\fscy100)}BOUNDARIES EVEN
+Dialogue: 0,0:00:20.46,0:00:22.28,Pop,,0,0,0,,{\an2\fad(60,60)\t(0,100,\fscx112\fscy112)\t(100,200,\fscx100\fscy100)}FURTHER. UNLOCK
+Dialogue: 0,0:00:22.28,0:00:23.32,Pop,,0,0,0,,{\an2\fad(60,60)\t(0,100,\fscx112\fscy112)\t(100,200,\fscx100\fscy100)}FASTER DISCOVERIES
+Dialogue: 0,0:00:23.32,0:00:24.16,Pop,,0,0,0,,{\an2\fad(60,60)\t(0,100,\fscx112\fscy112)\t(100,200,\fscx100\fscy100)}ACROSS FIELDS.
+Dialogue: 0,0:00:24.92,0:00:25.70,Pop,,0,0,0,,{\an2\fad(60,60)\t(0,100,\fscx112\fscy112)\t(100,200,\fscx100\fscy100)}FOLLOW US
+Dialogue: 0,0:00:25.70,0:00:26.05,Pop,,0,0,0,,{\an2\fad(60,60)\t(0,100,\fscx112\fscy112)\t(100,200,\fscx100\fscy100)}FOR MORE
+Dialogue: 0,0:00:26.00,0:00:26.76,Pop,,0,0,0,,{\an2\fad(60,60)\t(0,100,\fscx112\fscy112)\t(100,200,\fscx100\fscy100)}AI UPDATES
+Dialogue: 0,0:00:26.76,0:00:27.54,Pop,,0,0,0,,{\an2\fad(60,60)\t(0,100,\fscx112\fscy112)\t(100,200,\fscx100\fscy100)}THAT TRANSFORM
+Dialogue: 0,0:00:27.54,0:00:28.02,Pop,,0,0,0,,{\an2\fad(60,60)\t(0,100,\fscx112\fscy112)\t(100,200,\fscx100\fscy100)}SCIENCE.

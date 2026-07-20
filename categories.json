@@ -1,0 +1,79 @@
+{
+  "_comment": "Edit this file to add/remove categories and keywords. Each category maps to a subfolder under backgrounds/. Matching is case-insensitive whole-word. The category with the highest total weight wins. Ties break in declaration order.",
+  "fallback": ["abstract", "general"],
+  "categories": {
+    "ai": {
+      "weight": 1.0,
+      "keywords": [
+        "ai", "a.i.", "artificial intelligence", "machine learning", "ml",
+        "neural network", "deep learning", "llm", "large language model",
+        "chatgpt", "gpt", "gpt-4", "gpt-5", "openai", "claude", "anthropic",
+        "gemini", "bard", "google deepmind", "deepmind", "mistral", "llama",
+        "ollama", "stable diffusion", "midjourney", "dall-e", "dalle",
+        "transformer", "embedding", "rag", "agent", "agents", "agentic",
+        "copilot", "prompt", "prompting", "fine-tune", "fine-tuning",
+        "hallucination", "inference", "training data", "huggingface"
+      ]
+    },
+    "coding": {
+      "weight": 1.0,
+      "keywords": [
+        "code", "coding", "programmer", "programming", "developer", "dev",
+        "software engineer", "tutorial", "snippet", "function", "class",
+        "variable", "compiler", "debugger", "ide", "vscode", "vim",
+        "python", "javascript", "typescript", "java", "kotlin", "swift",
+        "rust", "go", "golang", "ruby", "php", "c++", "c#", "scala",
+        "react", "vue", "svelte", "angular", "next.js", "nextjs", "nuxt",
+        "node", "node.js", "deno", "bun", "django", "flask", "fastapi",
+        "rails", "laravel", "spring", "express",
+        "git", "github", "gitlab", "pull request", "merge conflict",
+        "algorithm", "data structure", "leetcode", "regex", "api",
+        "sdk", "framework", "library", "open source", "stack overflow"
+      ]
+    },
+    "business": {
+      "weight": 1.0,
+      "keywords": [
+        "startup", "startups", "founder", "founders", "entrepreneur",
+        "company", "companies", "corporation", "enterprise",
+        "funding", "fundraise", "raised", "series a", "series b", "series c",
+        "seed round", "venture", "venture capital", "vc", "investor",
+        "investors", "valuation", "unicorn", "ipo", "acquired", "acquisition",
+        "merger", "buyout", "revenue", "profit", "earnings", "stock",
+        "stocks", "market cap", "shareholder", "ceo", "cfo", "coo",
+        "y combinator", "yc", "techcrunch", "wall street", "nasdaq",
+        "sales", "marketing", "growth", "saas", "b2b", "b2c", "pricing",
+        "business model", "monetization", "layoffs"
+      ]
+    },
+    "tech": {
+      "weight": 1.0,
+      "keywords": [
+        "tech", "technology", "gadget", "gadgets", "device", "smartphone",
+        "phone", "iphone", "android", "samsung", "pixel", "macbook",
+        "laptop", "tablet", "ipad", "smartwatch", "wearable",
+        "apple", "google", "microsoft", "amazon", "meta", "facebook",
+        "tesla", "nvidia", "intel", "amd", "qualcomm", "arm",
+        "vision pro", "headset", "vr", "ar", "augmented reality",
+        "virtual reality", "robot", "robotics", "drone", "self-driving",
+        "autonomous", "ev", "electric vehicle", "5g", "6g",
+        "release", "launch", "announcement", "update", "feature",
+        "operating system", "ios", "macos", "windows", "linux",
+        "chip", "semiconductor", "processor", "gpu", "cpu"
+      ]
+    },
+    "abstract": {
+      "weight": 0.6,
+      "keywords": [
+        "philosophy", "psychology", "consciousness", "mind", "thought",
+        "idea", "concept", "theory", "dream", "imagination",
+        "abstract", "metaphor", "art", "design", "aesthetic",
+        "universe", "space", "cosmos", "infinity", "time", "reality"
+      ]
+    },
+    "general": {
+      "weight": 0.0,
+      "keywords": []
+    }
+  }
+}

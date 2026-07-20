@@ -1,0 +1,81 @@
+[
+  {
+    "date": "2026-07-04",
+    "timestamp": "2026-07-04T16:17:26.815990+00:00",
+    "topic": "Previewing GPT-5.6 Sol: a next-generation model",
+    "source": "OpenAI Blog",
+    "url": "https://openai.com/index/previewing-gpt-5-6-sol",
+    "viral_score": 95,
+    "audience_score": 92,
+    "script_score": 7,
+    "hook_score": 9,
+    "word_count": 63,
+    "estimated_seconds": 25.2,
+    "fact_safe": false,
+    "final_pass": false,
+    "warnings": [
+      "script: The script uses a non-existent model name, GPT-5.6 Sol.",
+      "script: The opening sentence is slightly over the recommended limit of 15 words (16 words).",
+      "script: More detail on what makes GPT-5.6 Sol 'next-generation' could be provided for better clarity.",
+      "script: While the script mentions speed and efficiency, it doesn't specify how these are achieved or what they mean in practical terms.",
+      "script: The statement that current AI tools will become obsolete is quite broad without context.",
+      "word count 63 outside 90–120",
+      "invented facts: GPT-5.6 Sol, next-generation model promises unprecedented speed and efficiency, it redefines what’s possible in language processing",
+      "6 image prompt(s) contained non-cinematic elements and were rewritten"
+    ],
+    "video_path": "output\\videos\\2026-07-04_20-54-32_previewing-gpt-56-sol-a-next-generation-model.mp4",
+    "generation_time_seconds": 3994.8
+  },
+  {
+    "date": "2026-07-04",
+    "timestamp": "2026-07-04T19:56:54.068959+00:00",
+    "topic": "From Materials Simulation to Experimental Astronomy, New NVIDIA AI Software Unlocks Scientific Discoveries",
+    "source": "NVIDIA AI",
+    "url": "https://blogs.nvidia.com/blog/ai-for-science-software-cuda/",
+    "viral_score": 92,
+    "audience_score": 80,
+    "script_score": 6,
+    "hook_score": 7,
+    "word_count": 62,
+    "estimated_seconds": 24.8,
+    "fact_safe": false,
+    "final_pass": false,
+    "warnings": [
+      "script: The script mentions specific tools (DAQIRI, ALCHEMI NIM, cuPhoton) that are not in the allowed facts.",
+      "script: The word 'microservices' might be confusing to viewers without background knowledge.",
+      "script: The phrase 'coming soon' is vague and could be misleading.",
+      "script: The structure could benefit from a more balanced distribution of information.",
+      "script: The script does not explicitly state why these tools matter for scientific discoveries.",
+      "word count 62 outside 90–120",
+      "invented facts: NVIDIA DAQIRI library, ALCHEMI NIM microservices, cuPhoton",
+      "7 image prompt(s) contained non-cinematic elements and were rewritten"
+    ],
+    "video_path": "output\\videos\\2026-07-05_00-36-43_from-materials-simulation-to-experimental-astronom.mp4",
+    "generation_time_seconds": 6117.0
+  },
+  {
+    "date": "2026-07-04",
+    "timestamp": "2026-07-04T20:18:42.767645+00:00",
+    "topic": "Core dump epidemiology: fixing an 18-year-old bug",
+    "source": "OpenAI Blog",
+    "url": "https://openai.com/index/core-dump-epidemiology-data-infrastructure-bug",
+    "viral_score": 85,
+    "audience_score": 85,
+    "script_score": 6,
+    "hook_score": 8,
+    "word_count": 117,
+    "estimated_seconds": 46.8,
+    "fact_safe": false,
+    "final_pass": false,
+    "warnings": [
+      "script: The topic mentions 'core dump epidemiology', but this term is not explained or used in the script.",
+      "script: The script conflates multiple issues (crashes, hardware corruption, race condition) without clear separation of importance.",
+      "script: The opening line about a 18-year-old bug may be confusing as it doesn't clearly relate to the topic provided.",
+      "script: No specific impact or consequence is mentioned for why this news matters.",
+      "invented facts: Rockset, OpenAI’s critical data service, Crashes were mysterious, returning to incorrect addresses or corrupting memory without warning.",
+      "7 image prompt(s) contained non-cinematic elements and were rewritten"
+    ],
+    "video_path": "output\\videos\\2026-07-05_01-11-21_core-dump-epidemiology-fixing-an-18-year-old-bug.mp4",
+    "generation_time_seconds": 5808.8
+  }
+]

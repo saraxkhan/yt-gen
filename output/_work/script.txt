@@ -1,0 +1,5 @@
+In ChatGPT's inner workings, hidden for years was a 18-year-old bug, silently causing chaos.  
+Imagine a rock solid infrastructure suddenly crumbling at key moments. That’s what happened in Rockset, OpenAI’s critical data service.  
+Crashes were mysterious, returning to incorrect addresses or corrupting memory without warning. Diagnosing these issues proved incredibly challenging.  
+It turns out, two silent killers were at play: hardware corruption and an ancient race condition in GNU libunwind. Fixing them will stabilize the system but requires diving deep into code and hardware interactions.  
+These hidden bugs remind us that even cutting-edge tools can hide long-forgotten flaws. Stay tuned for more AI revelations. Follow us for the latest in AI news and tool updates.

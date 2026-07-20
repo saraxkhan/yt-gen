@@ -1,0 +1,38 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Pop,Impact,110,&H00FFFFFF,&H000000FF,&H00000000,&H64000000,1,0,0,0,100,100,0,0,1,6,2,5,80,80,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+
+Dialogue: 0,0:00:00.00,0:00:00.94,Pop,,0,0,0,,{\an5\fad(80,80)\t(0,120,\fscx115\fscy115)\t(120,220,\fscx100\fscy100)}OPENAI HAS
+Dialogue: 0,0:00:00.94,0:00:01.38,Pop,,0,0,0,,{\an5\fad(80,80)\t(0,120,\fscx115\fscy115)\t(120,220,\fscx100\fscy100)}LAUNCHED A
+Dialogue: 0,0:00:01.38,0:00:01.82,Pop,,0,0,0,,{\an5\fad(80,80)\t(0,120,\fscx115\fscy115)\t(120,220,\fscx100\fscy100)}NEW AI
+Dialogue: 0,0:00:01.82,0:00:02.74,Pop,,0,0,0,,{\an5\fad(80,80)\t(0,120,\fscx115\fscy115)\t(120,220,\fscx100\fscy100)}AGENT, BRINGING
+Dialogue: 0,0:00:02.74,0:00:03.82,Pop,,0,0,0,,{\an5\fad(80,80)\t(0,120,\fscx115\fscy115)\t(120,220,\fscx100\fscy100)}ADVANCED CAPABILITIES
+Dialogue: 0,0:00:03.82,0:00:04.26,Pop,,0,0,0,,{\an5\fad(80,80)\t(0,120,\fscx115\fscy115)\t(120,220,\fscx100\fscy100)}TO THE
+Dialogue: 0,0:00:04.26,0:00:04.76,Pop,,0,0,0,,{\an5\fad(80,80)\t(0,120,\fscx115\fscy115)\t(120,220,\fscx100\fscy100)}TABLE AND
+Dialogue: 0,0:00:04.76,0:00:05.60,Pop,,0,0,0,,{\an5\fad(80,80)\t(0,120,\fscx115\fscy115)\t(120,220,\fscx100\fscy100)}TRANSFORMING HOW
+Dialogue: 0,0:00:05.60,0:00:05.95,Pop,,0,0,0,,{\an5\fad(80,80)\t(0,120,\fscx115\fscy115)\t(120,220,\fscx100\fscy100)}WE WORK
+Dialogue: 0,0:00:05.92,0:00:06.48,Pop,,0,0,0,,{\an5\fad(80,80)\t(0,120,\fscx115\fscy115)\t(120,220,\fscx100\fscy100)}WITH ARTIFICIAL
+Dialogue: 0,0:00:06.48,0:00:08.48,Pop,,0,0,0,,{\an5\fad(80,80)\t(0,120,\fscx115\fscy115)\t(120,220,\fscx100\fscy100)}INTELLIGENCE. THIS
+Dialogue: 0,0:00:08.48,0:00:08.98,Pop,,0,0,0,,{\an5\fad(80,80)\t(0,120,\fscx115\fscy115)\t(120,220,\fscx100\fscy100)}UPDATE IS
+Dialogue: 0,0:00:08.98,0:00:09.56,Pop,,0,0,0,,{\an5\fad(80,80)\t(0,120,\fscx115\fscy115)\t(120,220,\fscx100\fscy100)}CRUCIAL FOR
+Dialogue: 0,0:00:09.56,0:00:10.20,Pop,,0,0,0,,{\an5\fad(80,80)\t(0,120,\fscx115\fscy115)\t(120,220,\fscx100\fscy100)}ANYONE LOOKING
+Dialogue: 0,0:00:10.20,0:00:10.62,Pop,,0,0,0,,{\an5\fad(80,80)\t(0,120,\fscx115\fscy115)\t(120,220,\fscx100\fscy100)}TO STAY
+Dialogue: 0,0:00:10.62,0:00:11.06,Pop,,0,0,0,,{\an5\fad(80,80)\t(0,120,\fscx115\fscy115)\t(120,220,\fscx100\fscy100)}AHEAD IN
+Dialogue: 0,0:00:11.06,0:00:11.41,Pop,,0,0,0,,{\an5\fad(80,80)\t(0,120,\fscx115\fscy115)\t(120,220,\fscx100\fscy100)}THE TECH
+Dialogue: 0,0:00:11.36,0:00:13.12,Pop,,0,0,0,,{\an5\fad(80,80)\t(0,120,\fscx115\fscy115)\t(120,220,\fscx100\fscy100)}LANDSCAPE. DON'T
+Dialogue: 0,0:00:13.12,0:00:13.50,Pop,,0,0,0,,{\an5\fad(80,80)\t(0,120,\fscx115\fscy115)\t(120,220,\fscx100\fscy100)}MISS OUT
+Dialogue: 0,0:00:13.50,0:00:13.85,Pop,,0,0,0,,{\an5\fad(80,80)\t(0,120,\fscx115\fscy115)\t(120,220,\fscx100\fscy100)}ON THESE
+Dialogue: 0,0:00:13.78,0:00:14.58,Pop,,0,0,0,,{\an5\fad(80,80)\t(0,120,\fscx115\fscy115)\t(120,220,\fscx100\fscy100)}POWERFUL TOOLS,
+Dialogue: 0,0:00:14.88,0:00:15.30,Pop,,0,0,0,,{\an5\fad(80,80)\t(0,120,\fscx115\fscy115)\t(120,220,\fscx100\fscy100)}FOLLOW US
+Dialogue: 0,0:00:15.30,0:00:15.65,Pop,,0,0,0,,{\an5\fad(80,80)\t(0,120,\fscx115\fscy115)\t(120,220,\fscx100\fscy100)}FOR MORE
+Dialogue: 0,0:00:15.64,0:00:16.26,Pop,,0,0,0,,{\an5\fad(80,80)\t(0,120,\fscx115\fscy115)\t(120,220,\fscx100\fscy100)}UPDATES AND
+Dialogue: 0,0:00:16.26,0:00:16.64,Pop,,0,0,0,,{\an5\fad(80,80)\t(0,120,\fscx115\fscy115)\t(120,220,\fscx100\fscy100)}INNOVATIONS.

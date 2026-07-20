@@ -1,0 +1,14 @@
+# Required
+edge-tts>=6.1.10
+faster-whisper>=1.0.3
+ffmpeg-python>=0.2.0
+
+# Optional - only needed if you use --llm-provider openai
+# or --image-provider openai
+# openai>=1.40.0
+#
+# Image visual mode (default) needs an image backend:
+#   - sd (default):  a local Stable Diffusion WebUI (AUTOMATIC1111) running
+#                    with --api enabled. No Python package required.
+#   - openai:        uses the openai package above (OPENAI_API_KEY).
+#   - file:          reuse your own images, no generation, no extra deps.

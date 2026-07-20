@@ -1,0 +1,50 @@
+{
+  "generated_at": "2026-07-04T20:18:42.767645+00:00",
+  "generation_time_seconds": 5808.8,
+  "topic": "Core dump epidemiology: fixing an 18-year-old bug",
+  "story": {
+    "source": "OpenAI Blog",
+    "url": "https://openai.com/index/core-dump-epidemiology-data-infrastructure-bug",
+    "viral_score": 85,
+    "age_hours": 1.6,
+    "category": "Research Breakthrough"
+  },
+  "audience": {
+    "curiosity": 9,
+    "shock_value": 7,
+    "mass_appeal": 6,
+    "shareability": 8,
+    "retention_potential": 9,
+    "overall": 85,
+    "reasoning": "Breakthrough in debugging complex systems, combining hardware and software analysis."
+  },
+  "script": {
+    "structure_score": 6,
+    "hook_score": 8,
+    "word_count": 117,
+    "estimated_seconds": 46.8,
+    "has_hook": true,
+    "has_curiosity_gap": true,
+    "has_payoff": true,
+    "has_why_it_matters": false,
+    "has_cta": true,
+    "fact_safe": false,
+    "invented_items": [
+      "Rockset, OpenAI’s critical data service",
+      "Crashes were mysterious, returning to incorrect addresses or corrupting memory without warning."
+    ]
+  },
+  "images": {
+    "count": 7,
+    "prompts_sanitized": 7
+  },
+  "warnings": [
+    "script: The topic mentions 'core dump epidemiology', but this term is not explained or used in the script.",
+    "script: The script conflates multiple issues (crashes, hardware corruption, race condition) without clear separation of importance.",
+    "script: The opening line about a 18-year-old bug may be confusing as it doesn't clearly relate to the topic provided.",
+    "script: No specific impact or consequence is mentioned for why this news matters.",
+    "invented facts: Rockset, OpenAI’s critical data service, Crashes were mysterious, returning to incorrect addresses or corrupting memory without warning.",
+    "7 image prompt(s) contained non-cinematic elements and were rewritten"
+  ],
+  "final_pass": false
+}

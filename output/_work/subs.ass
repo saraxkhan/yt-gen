@@ -1,0 +1,59 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Pop,Impact,110,&H00FFFFFF,&H000000FF,&H00000000,&H64000000,1,0,0,0,100,100,0,0,1,6,2,5,80,80,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+
+Dialogue: 0,0:00:00.00,0:00:00.66,Pop,,0,0,0,,{\an5\fad(80,80)\t(0,120,\fscx115\fscy115)\t(120,220,\fscx100\fscy100)}AI IS
+Dialogue: 0,0:00:00.66,0:00:01.28,Pop,,0,0,0,,{\an5\fad(80,80)\t(0,120,\fscx115\fscy115)\t(120,220,\fscx100\fscy100)}MAKING EVERYTHING
+Dialogue: 0,0:00:01.28,0:00:02.10,Pop,,0,0,0,,{\an5\fad(80,80)\t(0,120,\fscx115\fscy115)\t(120,220,\fscx100\fscy100)}SMARTER. DID
+Dialogue: 0,0:00:02.10,0:00:02.45,Pop,,0,0,0,,{\an5\fad(80,80)\t(0,120,\fscx115\fscy115)\t(120,220,\fscx100\fscy100)}YOU KNOW
+Dialogue: 0,0:00:02.42,0:00:02.77,Pop,,0,0,0,,{\an5\fad(80,80)\t(0,120,\fscx115\fscy115)\t(120,220,\fscx100\fscy100)}IT'S NOW
+Dialogue: 0,0:00:02.76,0:00:03.44,Pop,,0,0,0,,{\an5\fad(80,80)\t(0,120,\fscx115\fscy115)\t(120,220,\fscx100\fscy100)}PREDICTING YOUR
+Dialogue: 0,0:00:03.44,0:00:03.98,Pop,,0,0,0,,{\an5\fad(80,80)\t(0,120,\fscx115\fscy115)\t(120,220,\fscx100\fscy100)}NEXT MOVE?
+Dialogue: 0,0:00:04.72,0:00:05.40,Pop,,0,0,0,,{\an5\fad(80,80)\t(0,120,\fscx115\fscy115)\t(120,220,\fscx100\fscy100)}SO HOW
+Dialogue: 0,0:00:05.40,0:00:05.78,Pop,,0,0,0,,{\an5\fad(80,80)\t(0,120,\fscx115\fscy115)\t(120,220,\fscx100\fscy100)}DOES THIS
+Dialogue: 0,0:00:05.78,0:00:06.20,Pop,,0,0,0,,{\an5\fad(80,80)\t(0,120,\fscx115\fscy115)\t(120,220,\fscx100\fscy100)}NEW AI
+Dialogue: 0,0:00:06.20,0:00:06.90,Pop,,0,0,0,,{\an5\fad(80,80)\t(0,120,\fscx115\fscy115)\t(120,220,\fscx100\fscy100)}TOOL WORK
+Dialogue: 0,0:00:06.90,0:00:08.70,Pop,,0,0,0,,{\an5\fad(80,80)\t(0,120,\fscx115\fscy115)\t(120,220,\fscx100\fscy100)}EXACTLY? IT
+Dialogue: 0,0:00:08.70,0:00:09.54,Pop,,0,0,0,,{\an5\fad(80,80)\t(0,120,\fscx115\fscy115)\t(120,220,\fscx100\fscy100)}ANALYZES VAST
+Dialogue: 0,0:00:09.54,0:00:10.08,Pop,,0,0,0,,{\an5\fad(80,80)\t(0,120,\fscx115\fscy115)\t(120,220,\fscx100\fscy100)}AMOUNTS OF
+Dialogue: 0,0:00:10.08,0:00:10.56,Pop,,0,0,0,,{\an5\fad(80,80)\t(0,120,\fscx115\fscy115)\t(120,220,\fscx100\fscy100)}DATA TO
+Dialogue: 0,0:00:10.56,0:00:11.10,Pop,,0,0,0,,{\an5\fad(80,80)\t(0,120,\fscx115\fscy115)\t(120,220,\fscx100\fscy100)}PREDICT WHAT
+Dialogue: 0,0:00:11.10,0:00:11.48,Pop,,0,0,0,,{\an5\fad(80,80)\t(0,120,\fscx115\fscy115)\t(120,220,\fscx100\fscy100)}YOU'LL NEED
+Dialogue: 0,0:00:11.48,0:00:12.04,Pop,,0,0,0,,{\an5\fad(80,80)\t(0,120,\fscx115\fscy115)\t(120,220,\fscx100\fscy100)}BEFORE YOU
+Dialogue: 0,0:00:12.04,0:00:12.64,Pop,,0,0,0,,{\an5\fad(80,80)\t(0,120,\fscx115\fscy115)\t(120,220,\fscx100\fscy100)}EVEN ASK.
+Dialogue: 0,0:00:13.62,0:00:14.22,Pop,,0,0,0,,{\an5\fad(80,80)\t(0,120,\fscx115\fscy115)\t(120,220,\fscx100\fscy100)}THE RESULT?
+Dialogue: 0,0:00:15.32,0:00:15.72,Pop,,0,0,0,,{\an5\fad(80,80)\t(0,120,\fscx115\fscy115)\t(120,220,\fscx100\fscy100)}A WORLD
+Dialogue: 0,0:00:15.72,0:00:16.44,Pop,,0,0,0,,{\an5\fad(80,80)\t(0,120,\fscx115\fscy115)\t(120,220,\fscx100\fscy100)}WHERE PRODUCTIVITY
+Dialogue: 0,0:00:16.44,0:00:17.52,Pop,,0,0,0,,{\an5\fad(80,80)\t(0,120,\fscx115\fscy115)\t(120,220,\fscx100\fscy100)}SKYROCKETS AND
+Dialogue: 0,0:00:17.52,0:00:18.12,Pop,,0,0,0,,{\an5\fad(80,80)\t(0,120,\fscx115\fscy115)\t(120,220,\fscx100\fscy100)}MISTAKES ARE
+Dialogue: 0,0:00:18.12,0:00:19.88,Pop,,0,0,0,,{\an5\fad(80,80)\t(0,120,\fscx115\fscy115)\t(120,220,\fscx100\fscy100)}MINIMIZED. BY
+Dialogue: 0,0:00:19.88,0:00:20.88,Pop,,0,0,0,,{\an5\fad(80,80)\t(0,120,\fscx115\fscy115)\t(120,220,\fscx100\fscy100)}UNDERSTANDING PATTERNS,
+Dialogue: 0,0:00:21.26,0:00:21.62,Pop,,0,0,0,,{\an5\fad(80,80)\t(0,120,\fscx115\fscy115)\t(120,220,\fscx100\fscy100)}IT OFFERS
+Dialogue: 0,0:00:21.62,0:00:22.74,Pop,,0,0,0,,{\an5\fad(80,80)\t(0,120,\fscx115\fscy115)\t(120,220,\fscx100\fscy100)}PERSONALIZED INSIGHTS
+Dialogue: 0,0:00:22.74,0:00:23.20,Pop,,0,0,0,,{\an5\fad(80,80)\t(0,120,\fscx115\fscy115)\t(120,220,\fscx100\fscy100)}THAT CAN
+Dialogue: 0,0:00:23.20,0:00:23.90,Pop,,0,0,0,,{\an5\fad(80,80)\t(0,120,\fscx115\fscy115)\t(120,220,\fscx100\fscy100)}TRANSFORM THE
+Dialogue: 0,0:00:23.90,0:00:24.25,Pop,,0,0,0,,{\an5\fad(80,80)\t(0,120,\fscx115\fscy115)\t(120,220,\fscx100\fscy100)}WAY YOU
+Dialogue: 0,0:00:24.22,0:00:24.70,Pop,,0,0,0,,{\an5\fad(80,80)\t(0,120,\fscx115\fscy115)\t(120,220,\fscx100\fscy100)}DO BUSINESS.
+Dialogue: 0,0:00:25.68,0:00:26.10,Pop,,0,0,0,,{\an5\fad(80,80)\t(0,120,\fscx115\fscy115)\t(120,220,\fscx100\fscy100)}ARE YOU
+Dialogue: 0,0:00:26.10,0:00:26.52,Pop,,0,0,0,,{\an5\fad(80,80)\t(0,120,\fscx115\fscy115)\t(120,220,\fscx100\fscy100)}READY TO
+Dialogue: 0,0:00:26.52,0:00:27.26,Pop,,0,0,0,,{\an5\fad(80,80)\t(0,120,\fscx115\fscy115)\t(120,220,\fscx100\fscy100)}EXPERIENCE A
+Dialogue: 0,0:00:27.26,0:00:27.78,Pop,,0,0,0,,{\an5\fad(80,80)\t(0,120,\fscx115\fscy115)\t(120,220,\fscx100\fscy100)}FUTURE WHERE
+Dialogue: 0,0:00:27.78,0:00:28.24,Pop,,0,0,0,,{\an5\fad(80,80)\t(0,120,\fscx115\fscy115)\t(120,220,\fscx100\fscy100)}YOUR AI
+Dialogue: 0,0:00:28.24,0:00:28.84,Pop,,0,0,0,,{\an5\fad(80,80)\t(0,120,\fscx115\fscy115)\t(120,220,\fscx100\fscy100)}IS ALWAYS
+Dialogue: 0,0:00:28.84,0:00:29.34,Pop,,0,0,0,,{\an5\fad(80,80)\t(0,120,\fscx115\fscy115)\t(120,220,\fscx100\fscy100)}ONE STEP
+Dialogue: 0,0:00:29.34,0:00:31.04,Pop,,0,0,0,,{\an5\fad(80,80)\t(0,120,\fscx115\fscy115)\t(120,220,\fscx100\fscy100)}AHEAD? SUBSCRIBE
+Dialogue: 0,0:00:31.04,0:00:31.52,Pop,,0,0,0,,{\an5\fad(80,80)\t(0,120,\fscx115\fscy115)\t(120,220,\fscx100\fscy100)}FOR MORE
+Dialogue: 0,0:00:31.52,0:00:32.04,Pop,,0,0,0,,{\an5\fad(80,80)\t(0,120,\fscx115\fscy115)\t(120,220,\fscx100\fscy100)}AI NEWS
+Dialogue: 0,0:00:32.04,0:00:32.46,Pop,,0,0,0,,{\an5\fad(80,80)\t(0,120,\fscx115\fscy115)\t(120,220,\fscx100\fscy100)}AND TOOLS
+Dialogue: 0,0:00:32.46,0:00:32.86,Pop,,0,0,0,,{\an5\fad(80,80)\t(0,120,\fscx115\fscy115)\t(120,220,\fscx100\fscy100)}THAT WILL
+Dialogue: 0,0:00:32.86,0:00:33.36,Pop,,0,0,0,,{\an5\fad(80,80)\t(0,120,\fscx115\fscy115)\t(120,220,\fscx100\fscy100)}CHANGE HOW
+Dialogue: 0,0:00:33.36,0:00:33.72,Pop,,0,0,0,,{\an5\fad(80,80)\t(0,120,\fscx115\fscy115)\t(120,220,\fscx100\fscy100)}YOU WORK.

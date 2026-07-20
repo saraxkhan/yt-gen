@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI Shorts Studio</title>
+  <meta name="description" content="Professional AI content generation dashboard for YouTube Shorts" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/static/style.css" />
+</head>
+<body>
+  <!-- ── Sidebar ────────────────────────────────────────────────────── -->
+  <aside class="sidebar" id="sidebar">
+    <div class="sidebar-brand">
+      <div class="brand-icon">⚡</div>
+      <div class="brand-text">
+        <div class="brand-name">AI Shorts</div>
+        <div class="brand-sub">Studio</div>
+      </div>
+    </div>
+
+    <nav class="sidebar-nav">
+      <a href="#" class="nav-item active" data-page="dashboard" id="nav-dashboard">
+        <span class="nav-icon">◈</span>
+        <span>Dashboard</span>
+      </a>
+      <a href="#" class="nav-item" data-page="generate" id="nav-generate">
+        <span class="nav-icon">✦</span>
+        <span>Generate</span>
+      </a>
+      <a href="#" class="nav-item" data-page="news" id="nav-news">
+        <span class="nav-icon">◉</span>
+        <span>AI News</span>
+        <span class="nav-badge" id="news-badge" style="display:none"></span>
+      </a>
+      <a href="#" class="nav-item" data-page="library" id="nav-library">
+        <span class="nav-icon">▦</span>
+        <span>Library</span>
+      </a>
+      <a href="#" class="nav-item" data-page="history" id="nav-history">
+        <span class="nav-icon">◷</span>
+        <span>History</span>
+      </a>
+    </nav>
+
+    <div class="sidebar-footer">
+      <button class="btn-ghost w-full" onclick="openOutputFolder()">
+        <span>📁</span> Open Output Folder
+      </button>
+    </div>
+  </aside>
+
+  <!-- ── Main content ───────────────────────────────────────────────── -->
+  <main class="main-content">
+
+    <!-- ── DASHBOARD PAGE ─────────────────────────────────────────── -->
+    <div class="page active" id="page-dashboard">
+      <div class="page-header">
+        <div>
+          <h1 class="page-title">Dashboard</h1>
+          <p class="page-subtitle">Your AI content generation overview</p>
+        </div>
+        <div class="header-actions">
+          <button class="btn-primary" onclick="navTo('generate')">
+            <span>+</span> New Short
+          </button>
+        </div>
+      </div>
+
+      <!-- Stats row -->
+      <div class="stats-row" id="stats-row">
+        <div class="stat-card">
+          <div class="stat-value" id="stat-videos">—</div>
+          <div class="stat-label">Total Videos</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-value" id="stat-runs">—</div>
+          <div class="stat-label">Total Runs</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-value" id="stat-score">—</div>
+          <div class="stat-label">Avg Script Score</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-value" id="stat-passed">—</div>
+          <div class="stat-label">Quality Passed</div>
+        </div>
+      </div>
+
+      <!-- Quick actions -->
+      <div class="section-title">Quick Actions</div>
+      <div class="quick-actions">
+        <div class="quick-card" onclick="navTo('generate')">
+          <div class="quick-icon">✦</div>
+          <div class="quick-label">Manual Generate</div>
+          <div class="quick-desc">Enter your own topic</div>
+        </div>
+        <div class="quick-card" onclick="startAutoGenerate()">
+          <div class="quick-icon">◉</div>
+          <div class="quick-label">Auto from News</div>
+          <div class="quick-desc">Fetch & pick best story</div>
+        </div>
+        <div class="quick-card" onclick="navTo('news')">
+          <div class="quick-icon">◈</div>
+          <div class="quick-label">Browse AI News</div>
+          <div class="quick-desc">Today's top stories</div>
+        </div>
+        <div class="quick-card" onclick="navTo('library')">
+          <div class="quick-icon">▦</div>
+          <div class="quick-label">Video Library</div>
+          <div class="quick-desc">Watch & manage Shorts</div>
+        </div>
+      </div>
+
+      <!-- Recent videos -->
+      <div class="section-title" style="margin-top:2rem">Recent Shorts</div>
+      <div id="recent-videos" class="video-grid"></div>
+    </div>
+
+    <!-- ── GENERATE PAGE ───────────────────────────────────────────── -->
+    <div class="page" id="page-generate">
+      <div class="page-header">
+        <div>
+          <h1 class="page-title">Generate Short</h1>
+          <p class="page-subtitle">Create a new AI news Short from scratch</p>
+        </div>
+      </div>
+
+      <div class="gen-layout">
+        <!-- Left: controls -->
+        <div class="gen-controls">
+          <div class="card">
+            <div class="card-title">Topic</div>
+            <textarea id="gen-topic" class="input-textarea" rows="3"
+              placeholder="e.g. OpenAI releases GPT-5 with 10x improvement in reasoning…"></textarea>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label>LLM Provider</label>
+                <select id="gen-provider" class="input-select">
+                  <option value="ollama">Ollama (local)</option>
+                  <option value="openai">OpenAI</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label>Model (optional)</label>
+                <input id="gen-model" class="input-text" type="text" placeholder="qwen2.5" />
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label>Duration (sec)</label>
+                <input id="gen-duration" class="input-text" type="number" value="40" min="20" max="60" />
+              </div>
+              <div class="form-group">
+                <label>Image Backend</label>
+                <select id="gen-image-provider" class="input-select">
+                  <option value="placeholder">Placeholder (fast)</option>
+                  <option value="file">From file</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label>Voice</label>
+                <input id="gen-voice" class="input-text" type="text" value="en-US-AriaNeural" />
+              </div>
+              <div class="form-group">
+                <label>Whisper Model</label>
+                <select id="gen-whisper" class="input-select">
+                  <option value="tiny">Tiny (fast)</option>
+                  <option value="small" selected>Small</option>
+                  <option value="medium">Medium (accurate)</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="btn-row">
+              <button class="btn-secondary" id="btn-preview-script" onclick="previewScript()">
+                Preview Script
+              </button>
+              <button class="btn-primary" id="btn-generate-full" onclick="generateFull()">
+                ⚡ Generate Short
+              </button>
+            </div>
+          </div>
+
+          <!-- Regen panel -->
+          <div class="card" id="regen-panel" style="display:none">
+            <div class="card-title">Regenerate Stage</div>
+            <div class="regen-stem-label" id="regen-stem-label"></div>
+            <div class="regen-buttons">
+              <button class="btn-regen" onclick="regenStage('script')">✍️ Script</button>
+              <button class="btn-regen" onclick="regenStage('scene_plan')">🎬 Scene Plan</button>
+              <button class="btn-regen" onclick="regenStage('voice')">🔊 Voice</button>
+              <button class="btn-regen" onclick="regenStage('subtitles')">📝 Subtitles</button>
+              <button class="btn-regen" onclick="regenStage('video')">🎞️ Video</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right: live output -->
+        <div class="gen-output">
+          <!-- Progress -->
+          <div class="card" id="progress-card" style="display:none">
+            <div class="card-title">
+              <span>Generation Progress</span>
+              <span class="progress-time" id="progress-elapsed">0s</span>
+            </div>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" id="progress-bar" style="width:0%"></div>
+            </div>
+            <div class="log-stream" id="log-stream"></div>
+          </div>
+
+          <!-- Script preview -->
+          <div class="card" id="script-preview-card" style="display:none">
+            <div class="card-title">Script Preview</div>
+            <div class="script-text" id="script-preview-text"></div>
+            <div class="validation-badges" id="validation-badges"></div>
+          </div>
+
+          <!-- Scene plan preview -->
+          <div class="card" id="scene-plan-card" style="display:none">
+            <div class="card-title">
+              <span>Scene Plan</span>
+              <span class="quality-pill" id="scene-quality-pill"></span>
+            </div>
+            <div id="scene-plan-list"></div>
+          </div>
+
+          <!-- Prompts preview -->
+          <div class="card" id="prompts-card" style="display:none">
+            <div class="card-title">Image Prompts</div>
+            <div id="prompts-list"></div>
+          </div>
+
+          <!-- Result video -->
+          <div class="card" id="result-card" style="display:none">
+            <div class="card-title">✅ Short Generated</div>
+            <div id="result-content"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ── NEWS PAGE ───────────────────────────────────────────────── -->
+    <div class="page" id="page-news">
+      <div class="page-header">
+        <div>
+          <h1 class="page-title">AI News</h1>
+          <p class="page-subtitle">Today's top AI stories ranked by viral potential</p>
+        </div>
+        <div class="header-actions">
+          <button class="btn-secondary" id="btn-fetch-news" onclick="fetchNews()">
+            ◉ Fetch News
+          </button>
+        </div>
+      </div>
+
+      <div id="news-loading" class="empty-state" style="display:none">
+        <div class="spinner"></div>
+        <p>Fetching from all AI news sources…</p>
+      </div>
+
+      <div id="news-empty" class="empty-state">
+        <div class="empty-icon">◉</div>
+        <p>Click "Fetch News" to load today's AI stories</p>
+      </div>
+
+      <div id="news-list" style="display:none"></div>
+    </div>
+
+    <!-- ── LIBRARY PAGE ────────────────────────────────────────────── -->
+    <div class="page" id="page-library">
+      <div class="page-header">
+        <div>
+          <h1 class="page-title">Video Library</h1>
+          <p class="page-subtitle">All generated Shorts</p>
+        </div>
+        <div class="header-actions">
+          <button class="btn-ghost" onclick="loadLibrary()">↺ Refresh</button>
+        </div>
+      </div>
+
+      <div id="library-empty" class="empty-state">
+        <div class="empty-icon">▦</div>
+        <p>No videos yet — generate your first Short!</p>
+        <button class="btn-primary" onclick="navTo('generate')">Generate Now</button>
+      </div>
+
+      <div id="library-grid" class="video-grid" style="display:none"></div>
+
+      <!-- Video modal -->
+      <div class="modal-overlay" id="video-modal" style="display:none" onclick="closeVideoModal(event)">
+        <div class="video-modal-inner">
+          <button class="modal-close" onclick="closeVideoModal()">✕</button>
+          <div class="modal-split">
+            <div class="modal-video-wrap">
+              <video id="modal-video" controls playsinline></video>
+            </div>
+            <div class="modal-meta" id="modal-meta"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ── HISTORY PAGE ────────────────────────────────────────────── -->
+    <div class="page" id="page-history">
+      <div class="page-header">
+        <div>
+          <h1 class="page-title">History</h1>
+          <p class="page-subtitle">All generation runs with quality metrics</p>
+        </div>
+      </div>
+
+      <div class="history-filters">
+        <input type="text" class="input-text" id="hist-search"
+          placeholder="Search topics…" oninput="filterHistory()" />
+        <input type="date" class="input-text" id="hist-date"
+          style="max-width:160px" onchange="filterHistory()" />
+        <select class="input-select" id="hist-min-score" onchange="filterHistory()" style="max-width:180px">
+          <option value="">Any score</option>
+          <option value="7">Score ≥ 7</option>
+          <option value="8">Score ≥ 8</option>
+          <option value="9">Score ≥ 9</option>
+        </select>
+      </div>
+
+      <div id="history-empty" class="empty-state">
+        <div class="empty-icon">◷</div>
+        <p>No generation history yet</p>
+      </div>
+
+      <div id="history-table-wrap" style="display:none">
+        <table class="history-table">
+          <thead>
+            <tr>
+              <th>Date</th>
+              <th>Topic</th>
+              <th>Source</th>
+              <th>Viral</th>
+              <th>Script</th>
+              <th>Words</th>
+              <th>Time</th>
+              <th>Status</th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody id="history-tbody"></tbody>
+        </table>
+      </div>
+    </div>
+
+  </main>
+
+  <!-- ── Notification toast ─────────────────────────────────────────── -->
+  <div class="toast-container" id="toast-container"></div>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>

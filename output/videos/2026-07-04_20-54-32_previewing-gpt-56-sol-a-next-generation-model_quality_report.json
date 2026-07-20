@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-07-04T16:17:26.815990+00:00",
+  "generation_time_seconds": 3994.8,
+  "topic": "Previewing GPT-5.6 Sol: a next-generation model",
+  "story": {
+    "source": "OpenAI Blog",
+    "url": "https://openai.com/index/previewing-gpt-5-6-sol",
+    "viral_score": 95,
+    "age_hours": 1.1,
+    "category": "Product Launch"
+  },
+  "audience": {
+    "curiosity": 9,
+    "shock_value": 7,
+    "mass_appeal": 8,
+    "shareability": 9,
+    "retention_potential": 10,
+    "overall": 92,
+    "reasoning": "High curiosity and shock value from GPT-5.6 Sol, combined with strong mass appeal and shareability."
+  },
+  "script": {
+    "structure_score": 7,
+    "hook_score": 9,
+    "word_count": 63,
+    "estimated_seconds": 25.2,
+    "has_hook": true,
+    "has_curiosity_gap": false,
+    "has_payoff": true,
+    "has_why_it_matters": true,
+    "has_cta": true,
+    "fact_safe": false,
+    "invented_items": [
+      "GPT-5.6 Sol",
+      "next-generation model promises unprecedented speed and efficiency",
+      "it redefines what’s possible in language processing",
+      "by unlocking new frontiers, GPT-5.6 Sol makes current AI tools obsolete"
+    ]
+  },
+  "images": {
+    "count": 7,
+    "prompts_sanitized": 6
+  },
+  "warnings": [
+    "script: The script uses a non-existent model name, GPT-5.6 Sol.",
+    "script: The opening sentence is slightly over the recommended limit of 15 words (16 words).",
+    "script: More detail on what makes GPT-5.6 Sol 'next-generation' could be provided for better clarity.",
+    "script: While the script mentions speed and efficiency, it doesn't specify how these are achieved or what they mean in practical terms.",
+    "script: The statement that current AI tools will become obsolete is quite broad without context.",
+    "word count 63 outside 90–120",
+    "invented facts: GPT-5.6 Sol, next-generation model promises unprecedented speed and efficiency, it redefines what’s possible in language processing",
+    "6 image prompt(s) contained non-cinematic elements and were rewritten"
+  ],
+  "final_pass": false
+}

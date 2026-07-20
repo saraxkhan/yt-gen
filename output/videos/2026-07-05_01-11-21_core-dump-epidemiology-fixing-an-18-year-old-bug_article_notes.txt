@@ -1,0 +1,10 @@
+- OpenAI's models and agents use scalable data infrastructure for searching relevant data at inference time.
+- Some services within this infrastructure are written in C++, which allows for high performance but lacks memory safety.
+- Crashes were observed in the Rockset service, a key component of ChatGPT's data infrastructure.
+- In these crashes, normal C++ functions seemed to finish and then return to a bogus address, causing kernel stops.
+- Sometimes the return address slot on the stack frame was NULL, while other times the stack pointer CPU register appeared off by 8 bytes.
+- These crash patterns are not typical for application code, making them hard to diagnose initially.
+- The bugs were eventually identified as two separate issues: silent hardware corruption and an 18-year-old race condition in GNU libunwind.
+- Rockset's execution layer is written in C++, providing low-level CPU access but increasing the risk of memory safety bugs.
+- Folly’s fatal signal handler was used to log stack traces during crashes, which were then uploaded to Azure blob storage for analysis.
+- Replicated query processing leaves in Rockset minimize client impact from crashes but require fixing underlying bugs.
